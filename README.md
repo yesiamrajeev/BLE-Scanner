@@ -10,17 +10,30 @@ Scanned devices will appear in the list view with their name and MAC address.
 To stop scanning, press the "Stop" button.
 Interact with the scanned devices as required.
 # Dependencies
-Minimum Android SDK version: 21
+Minimum Android SDK version: 33
 AndroidX libraries for UI components and Bluetooth API
 
-# Development Steps
-Set up the project structure and UI layout.
-Request necessary Bluetooth permissions in the AndroidManifest.xml file.
-Initialize BluetoothAdapter and check for BLE support.
-Implement the scanning logic using BluetoothLeScanner.
-Create a ScanCallback to handle scan results and update the UI.
-Stop scanning when required.
-Build and run the application on a physical Android device.
+## Features
+
+- Scan for nearby BLE devices.
+- Display discovered devices' names and addresses in a list.
+- Handle runtime permissions for Bluetooth and location access.
+- Request Bluetooth activation if it's not enabled.
+- Basic error handling for different scenarios.
+## Libraries Used
+
+- [Apache Commons IO](https://commons.apache.org/proper/commons-io/): Used for IO operations.
+- [AndroidX AppCompat](https://developer.android.com/jetpack/androidx/releases/appcompat): Support library for material design features.
+- [Apache POI](https://poi.apache.org/): Used for reading Excel files.
+- [Android BLE API](https://developer.android.com/guide/topics/connectivity/bluetooth-le): Android's built-in Bluetooth Low Energy API.
+
+## Future Improvements
+
+- Enhance UI/UX design.
+- Handle more edge cases for BLE and permissions.
+- Store and retrieve scanned devices using a more robust data storage method.
+- Provide more detailed device information.
+- Add filtering options for discovered devices.
 
 # Contributions
 Contributions are welcome! If you would like to contribute to this project, please follow the standard Git workflow:
