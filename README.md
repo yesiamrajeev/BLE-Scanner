@@ -1,5 +1,7 @@
 # BLE-Scanner
 A simple Android application that scans for nearby Bluetooth Low Energy (BLE) devices and displays the scanned devices in a list.
+![ezgif com-video-to-gif (6)](https://github.com/yesiamrajeev/BLE-Scanner/assets/125568812/c9d01894-15e4-4b34-8510-cb4c2abef363)
+
 # Usage
 Launch the application on a physical Android device that supports BLE.
 Grant Bluetooth permissions if prompted.
