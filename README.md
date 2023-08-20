@@ -13,7 +13,7 @@ To stop scanning, press the "Stop" button.
 Interact with the scanned devices as required.
 # Dependencies
 Minimum Android SDK version: 33
-AndroidX libraries for UI components and Bluetooth API
+AndroidX libraries for UI components and Bluetooth API.
 
 ## Features
 
